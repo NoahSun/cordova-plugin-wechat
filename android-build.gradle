@@ -1,7 +1,8 @@
 repositories {
     jcenter()
+    mavenCentral()
 }
 
 dependencies {
-    compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+    api 'com.tencent.mm.opensdk:wechat-sdk-android:+'
 }
